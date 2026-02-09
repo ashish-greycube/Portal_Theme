@@ -59,12 +59,12 @@
 
 		{% if apply_image_or_color == "Image" and background_image %}
 			background: url('{{ background_image }}') no-repeat center center;
-			background-size: cover;
+			background-size: 60%;
 		{% elif apply_image_or_color == "Color" and background_color %}
 			background: {{ background_color }};
 		{% elif apply_image_or_color == "Slider" and background_slider_images %}
 			background: url('{{ background_slider_images[0] }}') no-repeat center center;
-			background-size: cover;
+			background-size: 60%;
 			transition: background-image {{ transition or 0.6 }}s ease-in-out;
 		{% endif %}
 	}
