@@ -28,7 +28,7 @@ css_body = """
 	}
 
 	.nav.navbar-nav a {
-		color: #000 !important;
+		color: var(--navbar-text) !important;
 		font-weight: 600 !important;
 	}
 	
@@ -236,6 +236,10 @@ css_body = """
 /* Datatable Rows */
 	.datatable .dt-row:not(.dt-row-header):nth-of-type(odd) .dt-cell {
 		background-color: var(--secondary) !important;
+	}
+    
+    .grid-footer{
+    	background-color: transparent !important;
 	}
 
 /* ---------------- EDITOR HEADER ---------------- */

@@ -1,0 +1,79 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"0FiE_rDxAX\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Theme Settings</span>\",\"col\":12}},{\"id\":\"C3wj9Sad7U\",\"type\":\"card\",\"data\":{\"card_name\":\"Web Theme\",\"col\":4}}]",
+ "creation": "2026-02-18 15:16:17.205861",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "small-file",
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "Theme Settings",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Web Theme",
+   "link_count": 4,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Website Settings",
+   "link_count": 0,
+   "link_to": "Website Settings",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Website Theme",
+   "link_count": 0,
+   "link_to": "Website Theme",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Web Page",
+   "link_count": 0,
+   "link_to": "Web Page",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Web Template",
+   "link_count": 0,
+   "link_to": "Web Template",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2026-02-18 15:31:26.087858",
+ "modified_by": "Administrator",
+ "module": "Portal Theme",
+ "name": "Theme Settings",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 70.0,
+ "shortcuts": [],
+ "title": "Theme Settings"
+}

@@ -1,6 +1,6 @@
 $(function () {
     loadUITheme();
-});
+}); // Load the active UI theme CSS from the server and apply it to the page
 
 function loadUITheme() {
     frappe.call({
@@ -18,7 +18,7 @@ function loadUITheme() {
                 document.head.appendChild(styleTag);
             }
 
-            styleTag.textContent = css;
+            styleTag.textContent = css; // add the CSS to the style tag
         }
     });
 }

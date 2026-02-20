@@ -80,9 +80,10 @@ $(document).ready(function () {
                         }
 
                         /* Secondary Button */
+
                         .btn.btn-secondary {
-                            background-color: var(--btn-secondary-bg) !important;
-                            color: var(--btn-secondary-text) !important;
+                            background-color: var(--control-bg) !important;
+                            color: var(--text-color) !important;
                         }
 
                         /* Cards */
@@ -132,9 +133,9 @@ $(document).ready(function () {
                         }
                     `;
 
-                    let styleTag = document.createElement("style");
-                    styleTag.innerHTML = cssVars + cssRules;
-                    document.head.appendChild(styleTag);
+                    let styleTag = document.createElement("style");  // Create a new style tag
+                    styleTag.innerHTML = cssVars + cssRules; // Add the CSS variables and rules to the style tag
+                    document.head.appendChild(styleTag); // Append the style tag to the document head to apply the styles
                 }
             }
         }
